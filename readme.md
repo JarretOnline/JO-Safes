@@ -1,4 +1,4 @@
-# QB-SAFE 
+# JO-SAFES
     A placeable safe script
 
 # 1. Import qb-safe.sql to the MySQL DB
