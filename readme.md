@@ -1,13 +1,28 @@
-# JO-SAFES
-    A placeable safe script
+# Details
 
-# 1. Import qb-safe.sql to the MySQL DB
+Provides two different safes as items which can be placed or moved as needed for storage. 
 
-# 2. Copy the items from below and paste it to qb-core/shared/items.lua
+1. Import qb-safe.sql to the MySQL 
+2. Copy the items from below and paste it to qb-core/shared/items.lua
 
-	['safe1']					 = {['name'] = 'safe1', 						['label'] = 'Iron Safe',					['weight'] = 0,			['type'] = 'item', 		['image'] = 'safe1.png',				['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil, ['description'] = 'Just a placeable safe'},
-    ['safe2']					 = {['name'] = 'safe2', 					['label'] = 'Iron Safe Low',					['weight'] = 0,			['type'] = 'item', 	['image'] = 'safe2.png',				['unique'] = true, 		['useable'] = true, ['shouldClose'] = true,    ['combinable'] = nil, ['description'] = 'Just a placeable safe'},
 
-# 3. Start the script and it's done. 
+['safe1']	= {['name'] = 'safe1',	['label'] = 'Safe LG',	['weight'] = 20000,	['type'] = 'item', 	['image'] = 'safe1.png',	['unique'] = true,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['description'] = 'Storage Safe'},
 
-# 4. Enjoy the script
+['safe2']	= {['name'] = 'safe2',	['label'] = 'Safe SM',	['weight'] = 20000,	['type'] = 'item', 	['image'] = 'safe1.png',	['unique'] = true,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['description'] = 'Storage Safe'},
+
+# Framework
+https://github.com/qbcore-framework
+
+# Dependencies
+
+None
+
+# Optional
+
+None
+
+# Purchased
+
+None
+
+
